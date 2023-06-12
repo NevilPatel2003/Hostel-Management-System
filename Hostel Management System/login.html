@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hostel Management System - Home</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <style>
+          .jumbotron {
+            background-image: url("https://images.pexels.com/photos/302898/pexels-photo-302898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+            background-size: cover;
+            color: blueviolet;
+          }
+        </style>
+      </head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">Hostel Management System</a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+    </ul>
+</nav>
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-4">
+      <h2 class="text-center mb-3">Admin Login</h2>
+
+      <form>
+        <div class="form-group">
+          <label for="admin-username">Username</label>
+          <input type="text" class="form-control" id="admin-username" placeholder="Enter username">
+        </div>
+        <div class="form-group">
+          <label for="admin-password">Password</label>
+          <input type="password" class="form-control" id="admin-password" placeholder="Password">
+        </div>
+        <div class="text-center">
+          <a type="submit" class="btn btn-primary" href="./admin/index.html">Login</a>
+        </div>
+      </form>
+
+    </div>
+  </div>
+</div>
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-4">
+      <h2 class="text-center mb-3">User Login</h2>
+
+      <form>
+        <div class="form-group">
+          <label for="user-username">Username</label>
+          <input type="text" class="form-control" id="user-username" placeholder="Enter username" required>
+        </div>
+        <div class="form-group">
+          <label for="user-password">Password</label>
+          <input type="password" class="form-control" id="user-password" placeholder="Password" required>
+        </div>
+        <div class="text-center">
+          <a type="submit" class="btn btn-primary" href="./user/user.html">Login</a>
+        </div>
+      </form>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

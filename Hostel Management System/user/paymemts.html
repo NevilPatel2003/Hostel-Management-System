@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payments Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#">Hostel Management System</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="user.html">Home</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="paymemts.html">Payments</a>
+					</li>
+				</ul>
+
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="container mt-4">
+			<h2>Payment History</h2>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Payment ID</th>
+						<th>Amount Paid</th>
+						<th>Amount Due</th>
+						<th>Date Paid</th>
+						<th>Mode of Payment</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1234</td>
+						<td>20000 Rs</td>
+						<td>40000 Rs</td>
+						<td>22/12/2023</td>
+						<td>Demand Draft</td>
+					</tr>
+					<tr>
+						<td>5678</td>
+						<td>20000 Rs</td>
+						<td>20000 Rs</td>
+						<td>21/06/2023</td>
+						<td>Internet Banking</td>
+                    </tr>
+				</tbody>
+			</table>
+		</div>
+	</main>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
